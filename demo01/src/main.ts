@@ -1,3 +1,13 @@
+// 基础
+// import basicCube from './basics/basic_1'
+// basicCube()
+
+// 绘制直线
+import basicLine from './basics/basic_2'
+basicLine()
+
+// 实例
+
 // import createCube from './demos/demo_1'
 // createCube()
 
@@ -58,8 +68,8 @@
 // testShadow()
 
 // 综合小实例2 - 马路
-import testRoad from './demos/demo_16'
-testRoad()
+// import testRoad from './demos/demo_16'
+// testRoad()
 
 // 测试贴图
 // import testTexture from './demos/demo_17'
