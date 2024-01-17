@@ -1,10 +1,27 @@
+/*
+ * @Author: fremember
+ * @Date: 2024-01-10 17:33:59
+ * @Description: 
+ */
 // 基础
 // import basicCube from './basics/basic_1'
 // basicCube()
 
 // 绘制直线
-import basicLine from './basics/basic_2'
-basicLine()
+// import basicLine from './basics/basic_2'
+// basicLine()
+
+// 使用gsap
+// import basicGsap from './basics/basic_3'
+// basicGsap()
+
+// BufferGeometry设置顶点创建矩形
+// import basicBufferGeometry from './basics/basic_4'
+// basicBufferGeometry()
+
+// 生成酷炫三角科技物体
+import basicTriangle from './basics/basic_5'
+basicTriangle()
 
 // 实例
 
