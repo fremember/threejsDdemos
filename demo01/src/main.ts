@@ -20,8 +20,16 @@
 // basicBufferGeometry()
 
 // 生成酷炫三角科技物体
-import basicTriangle from './basics/basic_5'
-basicTriangle()
+// import basicTriangle from './basics/basic_5'
+// basicTriangle()
+
+// 纹理+属性
+// import basicMaterial from './basics/basic_6'
+// basicMaterial()
+
+// PBR 物理渲染
+import basicPbr from './basics/basic_7'
+basicPbr()
 
 // 实例
 
