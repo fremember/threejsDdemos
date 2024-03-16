@@ -28,8 +28,33 @@
 // basicMaterial()
 
 // PBR 物理渲染
-import basicPbr from './basics/basic_7'
-basicPbr()
+// import basicPbr from './basics/basic_7'
+// basicPbr()
+
+// 环境贴图 - jpg
+// import environmentMap from './basics/basic_8'
+// environmentMap()
+
+// 环境贴图 - hdr
+// import environmentMapHdr from './basics/basic_9'
+// environmentMapHdr()
+
+// 环境与灯光 - 平行光
+// import directionalLightShadow from './basics/basic_10'
+// directionalLightShadow()
+
+// 环境与灯光 - 聚光灯光源
+// import spotLightShadow from './basics/basic_11'
+// spotLightShadow()
+
+// 环境与灯光 - 点光源
+// import pointLightShadow from './basics/basic_12'
+// pointLightShadow()
+
+// 粒子系统
+import particle from './basics/basic_13'
+particle()
+
 
 // 实例
 
