@@ -23,7 +23,7 @@ export default function  basicMaterial() {
     scene.add(light)
 
     const directionalLight = new Three.DirectionalLight(0xffffff)
-    light.position.set(1, 1, 1)
+    directionalLight.position.set(1, 1, 1)
     scene.add(directionalLight)
 
     const axes = new Three.AxesHelper(1)

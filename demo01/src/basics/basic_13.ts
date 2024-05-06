@@ -40,7 +40,6 @@ export default function particle() {
     // 加载并设置纹理
     const textureLoader = new Three.TextureLoader(),
         apertureTexture = textureLoader.load(aperture);
-    
     pointsMaterial.map = apertureTexture
     pointsMaterial.alphaMap = apertureTexture
     pointsMaterial.transparent = true

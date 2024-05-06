@@ -52,9 +52,20 @@
 // pointLightShadow()
 
 // 粒子系统
-import particle from './basics/basic_13'
-particle()
+// import particle from './basics/basic_13'
+// particle()
 
+// 设置随机顶点，打造星河
+// import starFromRandomPoint from './basics/basic_14'
+// starFromRandomPoint()
+
+// 设置随机顶点，打造漫天雪花
+// import snowFromRandomPoint from './basics/basic_15'
+// snowFromRandomPoint()
+
+// 实现（简易）银河系
+import galaxy from './basics/basic_16'
+galaxy()
 
 // 实例
 
