@@ -44,14 +44,14 @@ export default function galaxy() {
         radius: 5,// 半径
         branch: 3, // 分支数
         color: '#ff6030',
-        rotateScale: 0.3,
+        rotateScale: 0.3, // 弯曲程度
         endColor: '#1b3984'
     }
     let geometry = null,
         material = null,
         points = null;
-    const centerColor = new Three.Color(params.color),
-        endColor = new Three.Color(params.endColor);
+    const centerColor = new Three.Color(params.color), // 中心颜色
+        endColor = new Three.Color(params.endColor); // 边缘颜色
 
     const generateGalaxy = () => {
         geometry = new Three.BufferGeometry()
@@ -85,7 +85,7 @@ export default function galaxy() {
         geometry.setAttribute('color', new Three.BufferAttribute(colors, 3))
         // 设置点材质
         material = new Three.PointsMaterial({
-            color: new Three.Color(params.color),
+            // color: new Three.Color(params.color),
             size: params.size,
             sizeAttenuation: true,
             depthWrite: false,

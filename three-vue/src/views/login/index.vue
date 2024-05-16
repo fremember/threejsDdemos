@@ -1,6 +1,5 @@
 <template name="login-view">
-    <div class="login-view" ref="loginRef">
-    </div>
+    <div class="login-view" ref="loginRef"></div>
 </template>
 
 <script setup lang="ts">
@@ -77,7 +76,7 @@
             scene.add(pointLight)
         },
         renderSphereRotate = () => {
-            sphere.rotateY(0.01)
+            sphere && sphere.rotateY(0.01)
         },
         initCamera = () => { // 创建相机
             // 视野夹角

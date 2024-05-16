@@ -64,8 +64,12 @@
 // snowFromRandomPoint()
 
 // 实现（简易）银河系
-import galaxy from './basics/basic_16'
-galaxy()
+// import galaxy from './basics/basic_16'
+// galaxy()
+
+// 投射光线实现三维物体交互
+import testRaycaster from './basics/basic_17'
+testRaycaster()
 
 // 实例
 
